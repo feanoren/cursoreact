@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.planet span {
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  margin-top: 120px;
+  font-size: 38px;
+  color: #fdfdfd;
+  font-style: unset;
+  align-items: center;
+  font-weight: bolder;
+}
+
+.planet img {
+  width: 100%
+}
+
+.planet span:nth-child(2) {
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  margin-top: 250px;
+  font-size: 38px;
+  color: #ff0404;
+  font-style: unset;
+  align-items: center;
+  font-weight: italic;
+}
